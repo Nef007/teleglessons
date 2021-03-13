@@ -1,9 +1,9 @@
-import  "./Footer.css"
+import s from "./Footer.module.css"
 
-export const Footer = () => {
+export const Index = () => {
     return (
         <footer >
-            <div className="wrapper">
+            <div className={s.wrapper}>
                 <h3>THANKS FOR VISITING</h3>
                 <p>© 2021 #ReactMarathon.</p>
             </div>
@@ -11,4 +11,4 @@ export const Footer = () => {
     );
 };
 
-export default Footer;
+export default Index;
